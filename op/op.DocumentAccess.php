@@ -183,6 +183,11 @@ else if ($action == "setdefault") {
 } elseif($action == "addaccess") {
 	if($notifier) {
 		$notifier->sendChangedDocumentAccessMail($document, $user);
+		if($userid > 0) {
+			if(($recipient = $dms->getUser($userid)) && $recipient->getID() != $user->getID()) {
+				$notifier->sendGrantedDocumentAccessMail($document, $user, $recipient);
+			}
+		}
 	}
 	$session->setSplashMsg(array('type'=>'success', 'msg'=>getMLText('splash_add_access')));
 } elseif($action == "editaccess") {

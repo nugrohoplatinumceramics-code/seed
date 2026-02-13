@@ -118,7 +118,7 @@ URL: [url]',
 Version: [version]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'approval_deletion_email_subject' => '[sitename]: [name] - Approval request deleted',
 'approval_file' => 'File',
 'approval_group' => 'Approval Group',
@@ -137,7 +137,7 @@ URL: [url]',
 Version: [version]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'approval_request_email_subject' => '[sitename]: [name] - Approval request',
 'approval_status' => 'Approval Status',
 'approval_submit_email' => '',
@@ -158,7 +158,7 @@ Parent folder: [folder_path]<br />
 Status: [status]<br />
 Comment: [comment]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'approval_submit_email_subject' => '[sitename]: [name] - Approval submitted',
 'approval_summary' => 'Approval Summary',
 'approval_update_failed' => 'Error updating approval status. Update failed.',
@@ -232,7 +232,7 @@ Old value: [attribute_old_value]<br />
 New value: [attribute_new_value]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'attribute_changed_email_subject' => '[sitename]: [name] - Attribute changed',
 'attribute_count' => 'Number of uses',
 'attribute_value' => 'Value of attribute',
@@ -469,20 +469,20 @@ URL: [url]</p>',
 'documents_user_rejected' => 'Rejected documents',
 'documents_user_requiring_attention' => 'Documents owned by you that require attention',
 'documents_with_notification' => 'Documents with notification',
-'document_access_permission_changed_email' => 'Permission changed',
-'document_access_permission_changed_email_body' => 'Permission changed
+'document_access_permission_changed_email' => 'Berikut terdapat dokumen SOP',
+'document_access_permission_changed_email_body' => 'Berikut terdapat dokumen SOP
 
 Document: [name]
 Parent folder: [folder_path]
 User: [username]
 URL: [url]',
-'document_access_permission_changed_email_body_html' => '<p>Permission changed</p>
+'document_access_permission_changed_email_body_html' => '<p>Berikut terdapat dokumen SOP</p>
 
 <p>Document: [name]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
-'document_access_permission_changed_email_subject' => '[sitename]: [name] - Permission changed',
+URL: <a href="[url]">[url]</a></p>',
+'document_access_permission_changed_email_subject' => '[sitename]: [name] - Berikut terdapat dokumen SOP',
 'document_already_checkedout' => 'This document is already checked out',
 'document_already_locked' => 'This document is already locked',
 'document_attribute_added_email_body' => 'Attribute added
@@ -500,7 +500,7 @@ Attribute: [attribute_name]<br />
 Value: [attribute_value]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_attribute_added_email_subject' => '[sitename]: [name] - Attribute added',
 'document_attribute_changed_email_body' => 'Attribute changed
 
@@ -519,7 +519,7 @@ Old value: [attribute_old_value]<br />
 New value: [attribute_new_value]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_attribute_changed_email_subject' => '[sitename]: [name] - Attribute changed',
 'document_comment_changed_email' => 'Comment changed',
 'document_comment_changed_email_body' => 'Comment changed
@@ -537,7 +537,7 @@ Old comment: [old_comment]<br />
 New Comment: [new_comment]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_comment_changed_email_subject' => '[sitename]: [name] - Comment changed',
 'document_content_missing' => 'Document content missing',
 'document_count' => 'Number of documents',
@@ -580,7 +580,7 @@ URL: [url]',
 Old folder: [old_folder_path]<br />
 New folder: [new_folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_moved_email_subject' => '[sitename]: [name] - Document moved',
 'document_notify_added_email' => 'You\'ve been added to notify list',
 'document_notify_added_email_body' => 'Added to notification list.
@@ -593,7 +593,7 @@ URL: [url]',
 <p>Name: [name]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_notify_added_email_subject' => '[sitename]: [name] - Added to notification list',
 'document_notify_deleted_email' => 'You\'ve been removed from notify list',
 'document_notify_deleted_email_body' => 'Removed from notification list
@@ -606,7 +606,7 @@ URL: [url]',
 <p>Name: [name]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_notify_deleted_email_subject' => '[sitename]: [name] - Removed from notification list',
 'document_not_checkedout' => 'Document is not checked out.',
 'document_ownership_changed_email' => 'Owner changed',
@@ -625,7 +625,7 @@ Parent folder: [folder_path]<br />
 Old owner: [old_owner]<br />
 New owner: [new_owner]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_ownership_changed_email_subject' => '[sitename]: [name] - Owner changed',
 'document_renamed_email' => 'Document renamed',
 'document_renamed_email_body' => 'Document name changed
@@ -641,7 +641,7 @@ URL: [url]',
 Parent folder: [folder_path]<br />
 Old name: [old_name]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_renamed_email_subject' => '[sitename]: [name] - Document renamed',
 'document_status_changed_email' => 'Document status changed',
 'document_status_changed_email_body' => 'Document status changed
@@ -659,7 +659,7 @@ Old status: [old_status]<br />
 New status: [status]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_status_changed_email_subject' => '[sitename]: [name] - Document status changed',
 'document_title' => 'Document \'[documentname]\'',
 'document_transfered_email_body' => 'Document transfer to other user
@@ -677,7 +677,7 @@ New owner: [newuser]<br />
 Old owner: [olduser]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_transfered_email_subject' => '[sitename]: [name] - Transfer Document',
 'document_updated_email' => 'Document updated',
 'document_updated_email_body' => 'Document updated
@@ -697,7 +697,7 @@ Parent folder: [folder_path]<br />
 User: [username]<br />
 Comment: [comment]<br />
 Version comment: [version_comment]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_updated_email_subject' => '[sitename]: [name] - Document updated',
 'document_versions' => 'Document versions',
 'does_not_expire' => 'Does not expire',
@@ -771,8 +771,8 @@ URL: [url]</p>',
 'el_GR' => 'Greek',
 'email' => 'Email',
 'email_error_title' => 'No email entered',
-'email_footer' => 'You can always change your e-mail settings using \'My Account\' functions',
-'email_footer_html' => '<p>You can always change your e-mail settings using \'My Account\' functions</p>',
+'email_footer' => 'Jika ada pertanyaan mengenai akses SOP ini bisa menghubungi team MAC',
+'email_footer_html' => '<p>Jika ada pertanyaan mengenai akses SOP ini bisa menghubungi team MAC</p>',
 'email_header' => 'This is an automatic message from the DMS server.',
 'email_header_html' => '<p>This is an automatic message from the DMS server.</p>',
 'email_not_given' => 'Please enter a valid email address.',
@@ -841,7 +841,7 @@ URL: [url]',
 <p>Document: [name]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'expiry_changed_email_subject' => '[sitename]: [name] - Expiry date changed',
 'export' => 'Export',
 'export_user_list_csv' => 'Export users as CSV',
@@ -890,7 +890,7 @@ URL: [url]',
 <p>Folder: [name]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_access_permission_changed_email_subject' => '[sitename]: [name] - Permission changed',
 'folder_attribute_added_email_body' => 'Attribute added
 
@@ -907,7 +907,7 @@ Attribute: [attribute_name]<br />
 Value: [attribute_value]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_attribute_added_email_subject' => '[sitename]: [name] - Attribute added',
 'folder_attribute_changed_email_body' => 'Attribute changed
 
@@ -926,7 +926,7 @@ Old value: [attribute_old_value]<br />
 New value: [attribute_new_value]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_attribute_changed_email_subject' => '[sitename]: [name] - Attribute changed',
 'folder_comment_changed_email' => 'Comment changed',
 'folder_comment_changed_email_body' => 'Comment changed
@@ -944,7 +944,7 @@ Old comment: [old_comment]<br />
 New Comment: [new_comment]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_comment_changed_email_subject' => '[sitename]: [name] - Comment changed',
 'folder_contents' => 'Folder Contents',
 'folder_deleted_email' => 'Folder deleted',
@@ -959,7 +959,7 @@ URL: [url]',
 <p>Folder: [name]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_deleted_email_subject' => '[sitename]: [name] - Folder deleted',
 'folder_infos' => 'Folder Information',
 'folder_moved_email' => 'Folder moved',
@@ -976,7 +976,7 @@ URL: [url]',
 Old folder: [old_folder_path]<br />
 New folder: [new_folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_moved_email_subject' => '[sitename]: [name] - Folder moved',
 'folder_notify_added_email' => '',
 'folder_notify_added_email_body' => 'Added to notification list.
@@ -989,7 +989,7 @@ URL: [url]',
 <p>Name: [name]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_notify_added_email_subject' => '[sitename]: [name] - Added to notification list',
 'folder_notify_deleted_email_body' => 'Removed from notification list
 
@@ -1001,7 +1001,7 @@ URL: [url]',
 <p>Name: [name]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_notify_deleted_email_subject' => '[sitename]: [name] - Removed from notification list',
 'folder_ownership_changed_email_body' => 'Owner changed
 
@@ -1018,7 +1018,7 @@ Parent folder: [folder_path]<br />
 Old owner: [old_owner]<br />
 New owner: [new_owner]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_ownership_changed_email_subject' => '[sitename]: [name] - Owner changed',
 'folder_renamed_email' => 'Folder renamed',
 'folder_renamed_email_body' => 'Folder renamed
@@ -1034,7 +1034,7 @@ URL: [url]',
 Parent folder: [folder_path]<br />
 Old name: [old_name]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_renamed_email_subject' => '[sitename]: [name] - Folder renamed',
 'folder_title' => 'Folder \'[foldername]\'',
 'foot_note' => '',
@@ -1321,7 +1321,7 @@ Parent folder: [folder_path]<br />
 Comment: [comment]<br />
 Version comment: [version_comment]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'new_document_email_subject' => '[sitename]: [folder_name] - New document',
 'new_file_email' => 'New attachment',
 'new_file_email_body' => 'New attachment
@@ -1337,7 +1337,7 @@ URL: [url]',
 Document: [document]<br />
 Comment: [comment]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'new_file_email_subject' => '[sitename]: [document] - New attachment',
 'new_folder' => 'New folder',
 'new_link_type' => 'Add link type',
@@ -1356,7 +1356,7 @@ URL: [url]',
 Parent folder: [folder_path]<br />
 Comment: [comment]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'new_subfolder_email_subject' => '[sitename]: [name] - New folder',
 'new_user_image' => 'New image',
 'next_revision_abbr' => 'Next Rev.',
@@ -1532,7 +1532,7 @@ Version: [version]<br />
 Parent folder: [folder_path]<br />
 Recipient: [recipient]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'receipt_deletion_email_subject' => '[sitename]: [name] - Recipient removed',
 'receipt_log' => 'Reception Log',
 'receipt_request_email_body' => 'Reception request
@@ -1548,7 +1548,7 @@ URL: [url]',
 Version: [version]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'receipt_request_email_subject' => '[sitename]: [name] - Reception request',
 'receipt_status' => 'Status',
 'receipt_submit_email_body' => 'Submitted receipt
@@ -1568,7 +1568,7 @@ Status: [status]<br />
 Comment: [comment]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'receipt_submit_email_subject' => '[sitename]: [name] - Submitted receipt',
 'receipt_summary' => 'Receipt summary',
 'receipt_update_failed' => 'Acknowledging reception failed',
@@ -1596,7 +1596,7 @@ URL: [url]',
 
 <p>Document: [document]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'removed_file_email_subject' => '[sitename]: [document] - Removed attachment',
 'removed_recipient' => 'has been removed from the list of recipients.',
 'removed_reviewer' => 'has been removed from the list of reviewers.',
@@ -1616,7 +1616,7 @@ Version: [version]<br />
 Workflow: [workflow]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'removed_workflow_email_subject' => '[sitename]: [name] - Removed workflow from document version',
 'removeFolderFromDropFolder' => 'Remove folder after import',
 'remove_approval_log' => 'Remove approval',
@@ -1639,7 +1639,7 @@ URL: [url]',
 Version: [version]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'replace_content_email_subject' => '[sitename]: [name] - Document content replaced',
 'request_workflow_action_email_body' => 'The workflow has reached a state which requires your action.
 
@@ -1658,7 +1658,7 @@ Workflow: [workflow]<br />
 Current state: [current_state]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'request_workflow_action_email_subject' => '[sitename]: [name] - Workflow action required',
 'reset_checkout' => 'Finish Check out',
 'restrict_access' => 'No access to',
@@ -1681,7 +1681,7 @@ Workflow: [workflow]<br />
 Subworkflow: [subworkflow]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'return_from_subworkflow_email_subject' => '[sitename]: [name] - Return from subworkflow',
 'reverse_links' => 'Documents, which have a link to the current document',
 'reviewers' => 'Reviewers',
@@ -1709,7 +1709,7 @@ URL: [url]',
 Version: [version]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'review_deletion_email_subject' => '[sitename]: [name] - Review request deleted',
 'review_file' => 'File',
 'review_group' => 'Review group',
@@ -1728,7 +1728,7 @@ URL: [url]',
 Version: [version]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'review_request_email_subject' => '[sitename]: [name] - Review request',
 'review_status' => 'Review status',
 'review_submit_email' => 'Submitted review',
@@ -1749,7 +1749,7 @@ Status: [status]<br />
 Comment: [comment]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'review_submit_email_subject' => '[sitename]: [name] - Submitted review',
 'review_summary' => 'Review Summary',
 'review_update_failed' => 'Error updating review status. Update failed.',
@@ -1773,7 +1773,7 @@ URL: [url]</p>',
 Version: [version]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'revision_deletion_email_subject' => '[sitename]: [name] - Revision request removed',
 'revision_log' => 'Revision log',
 'revision_request_email_body' => 'Revision request
@@ -1789,7 +1789,7 @@ URL: [url]',
 Version: [version]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'revision_request_email_subject' => '[sitename]: [name] - Revision request',
 'revision_status' => 'Status',
 'revision_submit_email_body' => 'Submitted revision
@@ -1809,7 +1809,7 @@ Status: [status]<br />
 Comment: [comment]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'revision_submit_email_subject' => '[sitename]: [name] - Submitted revision',
 'revision_summary' => 'Revision summary',
 'revisors' => 'Revisors',
@@ -1831,7 +1831,7 @@ Version: [version]<br />
 Workflow: [workflow]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'rewind_workflow_email_subject' => '[sitename]: [name] - Workflow was rewinded',
 'rewind_workflow_warning' => 'If you rewind a workflow to its initial state, then the whole workflow log for this document will be deleted and cannot be recovered.',
 'rm_attrdef' => 'Remove attribute definition',
@@ -1883,7 +1883,7 @@ Workflow: [workflow]<br />
 Subworkflow: [subworkflow]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'run_subworkflow_email_subject' => '[sitename]: [name] - Subworkflow was started',
 'ru_RU' => 'Russian',
 'saturday' => 'Saturday',
@@ -2715,7 +2715,7 @@ Previous state: [previous_state]<br />
 Current state: [current_state]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'transition_triggered_email_subject' => '[sitename]: [name] - Workflow transition triggered',
 'transmittal' => 'Transmittal',
 'transmittalitem_removed' => 'Transmittal item removed',
@@ -2819,7 +2819,7 @@ Old comment: [old_comment]<br />
 New Comment: [new_comment]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'version_comment_changed_email_subject' => '[sitename]: [name] - Comment changed',
 'version_deleted_email' => 'Version deleted',
 'version_deleted_email_body' => 'Version deleted
@@ -2835,7 +2835,7 @@ URL: [url]',
 Version: [version]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'version_deleted_email_subject' => '[sitename]: [name] - Version deleted',
 'version_info' => 'Version Information',
 'view' => 'View',

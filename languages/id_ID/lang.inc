@@ -112,7 +112,7 @@ $text = array(
 Versi: [version]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'approval_deletion_email_subject' => '',
 'approval_file' => 'Berkas',
 'approval_group' => 'Kelompok Persetujuan',
@@ -203,7 +203,7 @@ Nilai awal: [attribute_old_value]<br />
 Nilai baru: [attribute_new_value]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'attribute_changed_email_subject' => '[sitename]: [name] - Atribut berubah',
 'attribute_count' => 'Jumlah penggunaan',
 'attribute_value' => 'Nilai atribut',
@@ -451,7 +451,7 @@ URL: [url]',
 <p>Dokumen: [name]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_access_permission_changed_email_subject' => '[sitename]: [name] - Izin diterapkan',
 'document_already_checkedout' => 'Dokumen ini sudah diperiksa',
 'document_already_locked' => 'Dokumen ini telah dikunci',
@@ -467,7 +467,7 @@ Nilai awal: [attribute_old_value]<br />
 Nilai Baru: [attribute_new_value]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_attribute_changed_email_subject' => '',
 'document_comment_changed_email' => 'Komentar diubah',
 'document_comment_changed_email_body' => '',
@@ -478,7 +478,7 @@ Komentar awal: [old_comment]<br />
 Komentar baru: [new_comment]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_comment_changed_email_subject' => '',
 'document_content_missing' => 'Konten dokumen telah hilang',
 'document_count' => '',
@@ -511,7 +511,7 @@ Pengguna: [username]',
 Folder awal: [old_folder_path]<br />
 Folder baru: [new_folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_moved_email_subject' => '[sitename]: [name] - Dokumen dipindahkan',
 'document_notify_added_email' => 'Anda telah ditambahkan ke daftar pemberitahuan',
 'document_notify_added_email_body' => 'Ditambahkan ke daftar notifikasi.
@@ -524,7 +524,7 @@ URL: [url]',
 <p>Nama: [name]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_notify_added_email_subject' => '[sitename]: [name] - Ditambahkan ke daftar notifikasi',
 'document_notify_deleted_email' => 'Anda telah dihapus dari daftar pemberitahuan',
 'document_notify_deleted_email_body' => '',
@@ -532,7 +532,7 @@ URL: [url]</p>',
 <p>Nama: [name]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_notify_deleted_email_subject' => '',
 'document_not_checkedout' => '',
 'document_ownership_changed_email' => 'Pemilik diterapkan',
@@ -550,7 +550,7 @@ Folder induk: [folder_path]<br />
 Pemilik lama: [old_owner]<br />
 Pemilik baru: [new_owner]<br / >
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_ownership_changed_email_subject' => '[sitename]: [name] - Pemilik diterapkan',
 'document_renamed_email' => 'Dokumen diganti namanya',
 'document_renamed_email_body' => '',
@@ -560,7 +560,7 @@ URL: [url]</p>',
 Folder induk: [folder_path]<br />
 Nama awal: [old_name]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_renamed_email_subject' => '',
 'document_status_changed_email' => 'Status dokumen berubah',
 'document_status_changed_email_body' => 'Status dokumen berubah
@@ -601,7 +601,7 @@ Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
 Komentar: [comment]<br />
 Versi komentar: [version_comment]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'document_updated_email_subject' => '',
 'document_versions' => 'Versi dokumen',
 'does_not_expire' => 'Tidak kedaluwarsa',
@@ -675,8 +675,8 @@ URL: [url]</p>',
 'el_GR' => 'Yunani',
 'email' => '',
 'email_error_title' => 'Tidak ada email yang dimasukkan',
-'email_footer' => 'Anda selalu dapat mengubah pengaturan email Anda menggunakan fitur \'Akun Saya\'',
-'email_footer_html' => '<p>Anda selalu dapat mengubah setelan email menggunakan fitur \'Akun Saya\'</p>',
+'email_footer' => 'Jika ada pertanyaan mengenai akses SOP ini bisa menghubungi team MAC',
+'email_footer_html' => '<p>Jika ada pertanyaan mengenai akses SOP ini bisa menghubungi team MAC</p>',
 'email_header' => 'Ini adalah pesan otomatis dari server DMS.',
 'email_header_html' => '',
 'email_not_given' => 'Silakan isi alamat email.',
@@ -788,7 +788,7 @@ URL: [url]',
 <p>Dokumen: [name]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_access_permission_changed_email_subject' => '',
 'folder_attribute_added_email_body' => '',
 'folder_attribute_added_email_body_html' => '',
@@ -847,14 +847,14 @@ URL: [url]',
 <p>Nama: [name]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_notify_added_email_subject' => '[sitename]: [name] - Ditambahkan ke daftar notifikasi',
 'folder_notify_deleted_email_body' => '',
 'folder_notify_deleted_email_body_html' => '<p>Dihapus dari daftar notifikasi</p>
 <p>Nama: [name]<br />
 Folder induk: [folder_path]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_notify_deleted_email_subject' => '',
 'folder_ownership_changed_email_body' => 'Pemilik diterapkan
 Dokumen: [name]
@@ -870,7 +870,7 @@ Folder induk: [folder_path]<br />
 Pemilik lama: [old_owner]<br />
 Pemilik baru: [new_owner]<br / >
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_ownership_changed_email_subject' => '[sitename]: [name] - Pemilik diterapkan',
 'folder_renamed_email' => 'Folder berganti nama',
 'folder_renamed_email_body' => '',
@@ -880,7 +880,7 @@ URL: [url]</p>',
 Folder induk: [folder_path]<br />
 Nama awal: [old_name]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'folder_renamed_email_subject' => '',
 'folder_title' => 'Nama Folder',
 'foot_note' => '',
@@ -1166,7 +1166,7 @@ Folder induk: [folder_path]<br />
 Komentar: [comment]<br />
 Versi komentar: [version_comment]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'new_document_email_subject' => '[sitename]: [folder_name] - Dokumen baru',
 'new_file_email' => 'Lampiran baru',
 'new_file_email_body' => 'Lampiran baru
@@ -1358,7 +1358,7 @@ Versi: [version]<br />
 Folder induk: [folder_path]<br />
 Penerima: [recipient]<br />
 Pengguna: [username]<br />
-URL: [url]</p>',
+URL: <a href="[url]">[url]</a></p>',
 'receipt_deletion_email_subject' => '',
 'receipt_log' => 'Log Penerimaan',
 'receipt_request_email_body' => 'Permintaan penerimaan
