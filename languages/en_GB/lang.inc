@@ -469,20 +469,20 @@ URL: <a href="[url]">[url]</a></p>',
 'documents_user_rejected' => 'Rejected documents',
 'documents_user_requiring_attention' => 'Documents owned by you that require attention',
 'documents_with_notification' => 'Documents with notification',
-'document_access_permission_changed_email' => 'Permission changed',
-'document_access_permission_changed_email_body' => 'Permission changed
+'document_access_permission_changed_email' => 'Berikut terdapat dokumen SOP',
+'document_access_permission_changed_email_body' => 'Berikut terdapat dokumen SOP
 
 Document: [name]
 Parent folder: [folder_path]
 User: [username]
 URL: [url]',
-'document_access_permission_changed_email_body_html' => '<p>Permission changed</p>
+'document_access_permission_changed_email_body_html' => '<p>Berikut terdapat dokumen SOP</p>
 
 <p>Document: [name]<br />
 Parent folder: [folder_path]<br />
 User: [username]<br />
 URL: <a href="[url]">[url]</a></p>',
-'document_access_permission_changed_email_subject' => '[sitename]: [name] - Permission changed',
+'document_access_permission_changed_email_subject' => '[sitename]: [name] - Berikut terdapat dokumen SOP',
 'document_already_checkedout' => 'This document is already checked out',
 'document_already_locked' => 'This document is already locked',
 'document_attribute_added_email_body' => 'Attribute added
