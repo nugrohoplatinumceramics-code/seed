@@ -474,13 +474,11 @@ URL: <a href="[url]">[url]</a></p>',
 
 Document: [name]
 Parent folder: [folder_path]
-User: [username]
 URL: [url]',
 'document_access_permission_changed_email_body_html' => '<p>Berikut terdapat dokumen SOP</p>
 
 <p>Document: [name]<br />
 Parent folder: [folder_path]<br />
-User: [username]<br />
 URL: <a href="[url]">[url]</a></p>',
 'document_access_permission_changed_email_subject' => '[sitename]: [name] - Berikut terdapat dokumen SOP',
 'document_already_checkedout' => 'This document is already checked out',

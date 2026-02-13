@@ -444,13 +444,11 @@ URL: <a href="[url]">[url]</a></p>',
 'document_access_permission_changed_email_body' => 'Izin diterapkan
 Dokumen: [name]
 Folder induk: [folder_path]
-Pengguna: [username]
 URL: [url]',
 'document_access_permission_changed_email_body_html' => '<p>Izin diubah</p>
 
 <p>Dokumen: [name]<br />
 Folder induk: [folder_path]<br />
-Pengguna: [username]<br />
 URL: <a href="[url]">[url]</a></p>',
 'document_access_permission_changed_email_subject' => '[sitename]: [name] - Izin diterapkan',
 'document_already_checkedout' => 'Dokumen ini sudah diperiksa',
