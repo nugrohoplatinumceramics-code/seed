@@ -1548,6 +1548,24 @@ class SeedDMS_NotificationService {
 		}
 	} /* }}} */
 
+	public function sendGrantedDocumentAccessMail($document, $user, $recipient) { /* {{{ */
+		if(!$recipient || !$recipient->isType('user'))
+			return;
+
+		$folder = $document->getFolder();
+		$subject = "document_access_permission_changed_email_subject";
+		$message = "document_access_permission_changed_email_body";
+		$params = array();
+		$params['name'] = $document->getName();
+		$params['document_id'] = $document->getId();
+		$params['folder_path'] = $folder->getFolderPathPlain();
+		$params['username'] = $user->getFullName();
+		$params['url'] = getBaseUrl().$this->settings->_httpRoot."out/out.ViewDocument.php?documentid=".$document->getID();
+		$params['sitename'] = $this->settings->_siteName;
+		$params['http_root'] = $this->settings->_httpRoot;
+		$this->toIndividual($user, $recipient, $subject, $message, $params, SeedDMS_NotificationService::RECV_NOTIFICATION);
+	} /* }}} */
+
 	public function sendChangedFolderAccessMail($folder, $user) { /* {{{ */
 		$notifyList = $folder->getNotifyList();
 		$subject = "folder_access_permission_changed_email_subject";
