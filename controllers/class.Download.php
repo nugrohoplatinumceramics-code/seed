@@ -21,6 +21,16 @@
  * @version    Release: @package_version@
  */
 class SeedDMS_Controller_Download extends SeedDMS_Controller_Common {
+	/**
+	 * Reuse hooks from the ViewOnline controller.
+	 *
+	 * Some custom installations implement watermarking on the ViewOnline
+	 * controller only. By setting this alias, the same hook can also be
+	 * executed for file downloads.
+	 *
+	 * @var string
+	 */
+	protected $controllerAliasName = 'ViewOnline';
 
 	public function version() { /* {{{ */
 		$dms = $this->params['dms'];
